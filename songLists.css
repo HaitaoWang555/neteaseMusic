@@ -70,10 +70,11 @@ section.label .sort p{
 	margin-left: 3vw;
 }
 section.label p.border{
-	border: 1px solid #efefef;
+  border: 1px solid #efefef;
   padding-left: 2vw;
   padding-right: 2vw;
-  border-radius: 3.5vw;
+  border-radius: 2.5vw;
+  height: 5vw;
 }
 section.label .introductionWrap img {
 	width: 4vw;
