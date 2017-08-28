@@ -260,8 +260,10 @@ section.hotSearch .hotSearchList{
 section.hotSearch .hotSearchList li{
 	font-size: 3.7vw;
   border: 1px solid #efefef;
-  border-radius: 7.6vw;
-  padding: 1vw 2.5vw;
+  border-radius: 3.8vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
   margin: 2.67vw 3vw;
-  height: 7.6vw;	
+  height: 7.6vw;
+  line-height:7.6vw;
 }
