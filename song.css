@@ -23,8 +23,14 @@
 	width: 24vw;
 	position: absolute;
 	top: 0px;
-  left: 48vw;
-  z-index: 2;
+        left: 48vw;
+        z-index: 2;
+	transform-origin: top;
+    	transform: rotate(0deg);
+}
+.disc-container .pointer img。active{
+	transform-origin: 0 -5px;
+        transform: rotate(-20deg);
 }
 .disc-container .disc{
 	display: flex;
