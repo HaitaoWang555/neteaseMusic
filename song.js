@@ -18,18 +18,19 @@ function initPlayer(url){
 			audio.oncanplay = function(){
 				audio.play()
 				$('.disc-container').addClass('play')
+				$('.disc-container .pointer img').addClass('play')
 				
 			}
 			//暂停恢复
 			$('.disc-container .icon-pause').on('click',function(){
 				audio.pause()
 				$('.disc-container').removeClass('play')
-				$('.disc-container .pointer img').addClass('active')
+				$('.disc-container .pointer img').removeClass('play')
 			})
 			$('.disc-container .icon-play').on('click',function(){
 				audio.play()
 				$('.disc-container').addClass('play')
-				$('.disc-container .pointer img').removeClass('active')
+				$('.disc-container .pointer img').addClass('active')
 			})	
 			setInterval(()=>{
 				let seconds = audio.currentTime
