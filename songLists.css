@@ -1,0 +1,174 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+*::before,*::after{box-sizing: border-box;}
+li{list-style-type: none;}
+a{color: inherit;text-decoration: none;}
+.songList{
+	background-color: #f8f8f8;
+}
+/*顶部*/
+section.picture{
+	position: relative;
+	background: url(imgs/musicList2.jpg) no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: flex-start;
+}
+section.picture:after{
+  position: absolute;
+  content: '';
+  background-color: rgba(0,0,0,.25);
+  z-index: 0;
+  width: 100vw;
+  height: 100%;
+}
+section.picture .pictureWrap{
+	z-index: 1;
+	margin: 8vw 4vw;
+}
+section.picture .pictureWrap span{
+	display: block;
+  position: absolute;
+	top: 10vw;
+  padding: 0 2.1vw;
+	color: #fff;
+  font-size: 2.4vw;
+	background-color: rgba(217,48,48,.8);
+  border-top-right-radius: 4.53vw;
+  border-bottom-right-radius: 4.53vw;
+}
+section.picture .profile{
+	z-index: 1;
+	margin-top: 8vw;
+}
+section.picture .profile h2{
+	font-size: 4.53vw;
+  color: #fefefe;
+  font-weight: normal;
+  margin-bottom: 5vw;
+}
+section.picture .profile span{
+	color: hsla(0,0%,100%,.7);
+}
+section.picture .avatarWrap{
+	display: flex;
+	align-items: center;
+}
+section.picture .profile img{
+	border-radius: 50%;
+}
+/*歌单简介*/
+section.label{
+	font-size: 3.5vw;
+	color: #666;
+}
+section.label .sort{
+	display: flex;
+}
+section.label .sort p{
+	margin-top: 2.67vw;
+	margin-bottom: 2.67vw;
+	margin-left: 3vw;
+}
+section.label p.border{
+	border: 1px solid #efefef;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 3.5vw;
+}
+section.label .introductionWrap img {
+	width: 4vw;
+	margin-left: 94vw;
+}
+section.label .introduction {
+	margin-left: 3vw;
+  line-height: 5vw;
+  display: -webkit-box;
+  height: 15vw;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+section.label .introduction.active{
+	height: 25vw;
+	-webkit-line-clamp: 5;
+}
+section.label .introductionWrap img.active {
+	display: none;	
+}
+/*歌曲列表*/
+section.musicLists > h3{
+	background-color: #eeeff0;
+	color: #666;
+	font-size: 3.2vw;
+	padding: 1vw 3vw;
+}
+section.musicLists ol li{
+	display: flex;
+  align-items: center;
+}
+section.musicLists ol li .musicOrder span{
+	color: #999;
+}
+section.musicLists ol li .musicOrder{
+	padding-right: 2vw;
+}
+section.musicLists>ol li{
+	padding: 1.2vw;
+	margin-left: 1.7vw;
+	border-bottom: 1px solid #efeff0;
+	position: relative;
+}
+section.musicLists>ol li h3{
+	font-weight: normal;
+	font-size: 4.5vw;
+	padding-bottom: 1vw;
+}
+section.musicLists>ol li p{
+	color: #888888;
+	font-size: 3.2vw;
+}
+section.musicLists>ol li svg.icon-sq{
+	width: 3.2vw;
+	height: 3.2vw;
+	vertical-align: bottom;
+	margin-right: 0.5em;
+}
+section.musicLists>ol li svg.icon-play{
+	fill: #aaaaaa;
+	width: 6vw;
+	height: 6vw;
+	border: 1px solid #aaaaaa;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	margin-top: -3vw; 
+	right: 3vw;
+}
+/*收藏歌单*/
+section.collect{
+	background-color: white;
+	text-align: center;
+	padding: 2vw 8vw;
+  position: fixed;
+  bottom: 0vw;
+  width: 100%;	
+}
+section.collect span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	padding-top: 2vw;
+  padding-bottom: 2vw;
+  border: 1px solid #d43b32;
+  background-color: #d43b32;
+  color: white;    
+  height: 10.6vw;
+  border-radius: 10.6vw;
+}
+section.collect svg{
+	width: 5.6vw;
+	height: 6.1vw;
+	fill: white;
+	padding-right: 1vw;
+}

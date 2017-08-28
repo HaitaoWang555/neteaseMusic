@@ -1,0 +1,132 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+*::before,*::after{box-sizing: border-box;}
+@keyframes circle {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+.page{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background: transparent no-repeat center;
+	background-size: cover;
+}
+.disc-container{
+	position: relative;
+}
+.disc-container .pointer img{
+	width: 24vw;
+	position: absolute;
+	top: 0px;
+  left: 48vw;
+  z-index: 2;
+}
+.disc-container .disc{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.disc-container .disc .circle{
+	width: 79vw;
+	position: absolute;
+	top: 17vw;
+}
+.disc-container .disc .light{
+	width: 79vw;
+	margin-top: 18vw;
+	z-index: 1;
+	animation: circle 20s infinite linear;
+	animation-play-state: paused;
+}
+.disc-container .disc .cover{
+	width: 49vw;
+	position: absolute;
+	top: 32vw;
+	border-radius: 50%;
+	animation: circle 20s infinite linear;
+	animation-play-state: paused;
+}
+/*转动动画*/
+.disc-container.play .light,
+.disc-container.play .cover{
+	animation: circle 20s infinite linear;
+	animation-play-state: running;
+}
+.disc-container .icon-box{
+	position: absolute;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid white;
+	width: 18vw;
+	margin-top: 7vw;
+	height: 18vw;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.5);
+}
+.disc-container .icon-play,.icon-pause{
+	fill: white;
+}
+.disc-container.play .icon-play{
+	display: none;
+}
+.disc-container .icon-pause{
+	display: none;
+} 
+.disc-container.play .icon-pause{
+	display: block;
+}
+.song-description {
+	text-align: center;
+}
+.song-description h2{
+	color: #fefefe;
+	line-height: 2;
+}
+.song-description h2 span{
+	font-size: 16px;
+	color: hsla(0,0%,100%,.6);
+}
+.song-description .lyric-box{
+	height: 25vw;	
+	overflow: hidden;
+}
+.song-description .lyric{
+	transition: transform 0.3s;
+}
+.song-description .lyric p{
+	color: hsla(0,0%,100%,.6);
+	line-height: 2;
+}
+.song-description .lyric p.active{
+	color: #fefefe;
+}
+.page > .links{
+	text-align: center;
+	font-size: 0;
+}
+.page > .links a{
+	display: inline-block;
+	width: 37.3vw;
+	height: 11.2vw;
+	line-height: 11.2vw;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid red;
+  border-radius: 3px;
+  margin-top: 24vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  color: red;
+}
+.page > .links a:last-child{
+	color:white;
+	background-color: red;
+}

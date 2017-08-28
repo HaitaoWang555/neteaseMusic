@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<link rel="stylesheet" href="songLists.css">
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>	
+	<title>歌单</title>
+</head>
+<body>
+	<div class="songList">
+		<section class="picture">
+				<div class="pictureWrap">
+					<img src="imgs/musicList1.webp" alt="">
+					<span>歌单</span>
+				</div>
+				<div class="profile">
+					<h2>别看有的人表面风光，背地里一只猫都没有</h2>
+					<div class="avatarWrap">
+					<img src="imgs/avatar.webp" alt=""> <span>托你</span>
+					</div>
+				</div>				
+		</section>
+		<section class="label">
+			<div class="sort">
+					<p>标签:</p>
+					<p class="border">华语</p>
+					<p class="border">欧美 </p>
+					<p class="border">日语</p>
+			</div>
+			<div class="introductionWrap">
+			<p class="introduction">
+				简介：一日养猫，终身想猫。<br>
+				一日不吸，浑身难受。<br>
+				养猫之人心甘情愿沦落为铲屎官，<br>
+				无猫之人信誓旦旦地说道<br>
+				"要相信以后我们都会有猫的!"<br>
+			</p>
+			<img src="imgs/open.png"  alt="">
+			<img src="imgs/close.png" class="active" alt="">
+			</div>
+		</section>
+		<section class="musicLists">
+			<h3>歌曲列表</h3>
+			<ol id="myMusicLists">
+			<!--
+				<a href="song.html">	
+					<li>
+						<div class="musicOrder">  
+							<span>1</span>
+						</div>
+							<div>
+							<h3>陪你度过漫长岁月</h3>
+							<p>
+								<svg class="icon-sq"><use xlink:href="#icon-sq"></use></svg>陈奕迅-陪你度过漫长岁月
+							</p>
+							<svg class="icon-play"><use xlink:href="#icon-play"></use></svg>
+							</div>
+					</li>
+					</a>
+					-->
+			</ol>
+		</section>
+		<section class="collect">
+			<span><svg class="icon-netease-music1"><use xlink:href="#icon-netease-music1"></use></svg> 收藏歌单</span>
+		</section>
+	</div>
+	<script src="https://at.alicdn.com/t/font_393303_hwn90g10xgdp9zfr.js"></script>
+	<script src="songLists.js"></script>
+</body>
+</html>
