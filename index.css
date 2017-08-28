@@ -112,12 +112,14 @@ section.hotMusicLists>ol li p,
 section.newMusicLists>ul li p{
 	color: #888888;
 	font-size: 3.2vw;
+	display: flex;
+	align-items: flex-end;
 }
 section.hotMusicLists>ol li svg.icon-sq,
 section.newMusicLists>ul li svg.icon-sq{
 	width: 3.2vw;
 	height: 3.2vw;
-	vertical-align: bottom;
+	display: block;
 	margin-right: 0.5em;
 }
 section.hotMusicLists>ol li svg.icon-play,
