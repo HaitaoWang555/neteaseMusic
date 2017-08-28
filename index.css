@@ -113,7 +113,7 @@ section.newMusicLists>ul li p{
 	color: #888888;
 	font-size: 3.2vw;
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 }
 section.hotMusicLists>ol li svg.icon-sq,
 section.newMusicLists>ul li svg.icon-sq{
