@@ -58,8 +58,8 @@ header a{
 	bottom: -0.5vw;
 	background-color: #d33a31;
 	height: 0.5vw;
-  left: -2vw;
-  right: -2vw;
+        left: -2vw;
+        right: -2vw;
 }
 /*tab切换*/
 .tabContent > li{display: none;}
@@ -112,14 +112,12 @@ section.hotMusicLists>ol li p,
 section.newMusicLists>ul li p{
 	color: #888888;
 	font-size: 3.2vw;
-	display: flex;
-	align-items: center;
 }
 section.hotMusicLists>ol li svg.icon-sq,
 section.newMusicLists>ul li svg.icon-sq{
 	width: 3.2vw;
 	height: 3.2vw;
-	display: block;
+	vertical-align: middle;
 	margin-right: 0.5em;
 }
 section.hotMusicLists>ol li svg.icon-play,
