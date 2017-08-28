@@ -28,7 +28,7 @@
 	transform-origin: top;
     	transform: rotate(0deg);
 }
-.disc-container .pointer img。active{
+.disc-container .pointer img.active{
 	transform-origin: 0 -5px;
         transform: rotate(-20deg);
 }
