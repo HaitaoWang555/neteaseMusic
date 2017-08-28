@@ -55,7 +55,7 @@ header a{
 .homePage nav ul>li.active span:after{
 	content: '';
 	position: absolute;
-	bottom: 0;
+	bottom: -0.5vw;
 	background-color: #d33a31;
 	height: 0.5vw;
   left: -2vw;
