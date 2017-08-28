@@ -24,10 +24,12 @@ function initPlayer(url){
 			$('.disc-container .icon-pause').on('click',function(){
 				audio.pause()
 				$('.disc-container').removeClass('play')
+				$('.disc-container .pointer img').addClass('active')
 			})
 			$('.disc-container .icon-play').on('click',function(){
 				audio.play()
 				$('.disc-container').addClass('play')
+				$('.disc-container .pointer img').removeClass('active')
 			})	
 			setInterval(()=>{
 				let seconds = audio.currentTime
