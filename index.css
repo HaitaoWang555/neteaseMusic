@@ -107,6 +107,7 @@ section.hotMusicLists>ol li h3,
 section.newMusicLists>ul li h3{
 	font-size: 4.5vw;
 	padding-bottom: 1vw;
+	padding-top: 1vw;
 }
 section.hotMusicLists>ol li p,
 section.newMusicLists>ul li p{
