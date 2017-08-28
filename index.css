@@ -34,9 +34,10 @@ header a{
 	color: white;
 	border: 1px solid #e4857f;
 	height: 8vw;
-  line-height: 8vw;
+ 	line-height: 8vw;
 	border-radius: 4vw;
 	padding: 0 2.7vw;
+	font-size: 4vw;
 }
 /*导航栏样式*/
 .homePage nav ul{
@@ -88,12 +89,12 @@ section.playLists>ul li p{
 	font-size: 0.9em;
 	padding: 0 1.6vw;
 	line-height: 5vw;
-  display: -webkit-box;
-  height: 10vw;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
+ 	display: -webkit-box;
+ 	height: 10vw;
+ 	-webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 /*最新音乐样式*/
 section.hotMusicLists>ol li,
@@ -136,7 +137,7 @@ section.newMusicLists>ul li svg.icon-play{
 /*尾部广告栏*/
 
 section.ad{
-	background: url(https://s3.music.126.net/m/s/img/recommand_bg_2x.png?d045fafc60e017b653f8065a87496922) no-repeat;
+  background: url(https://s3.music.126.net/m/s/img/recommand_bg_2x.png?d045fafc60e017b653f8065a87496922) no-repeat;
   background-size: cover;
   text-align: center;
   padding-top: 18vw;
