@@ -12,7 +12,7 @@
 .page{
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	height: 100%;
 	background-size: cover;
 }
 .disc-container{
@@ -122,14 +122,15 @@
 	width: 37.3vw;
 	height: 11.2vw;
 	line-height: 11.2vw;
-  font-size: 18px;
-  text-decoration: none;
-  border: 1px solid red;
-  border-radius: 3px;
-  margin-top: 24vw;
-  margin-left: 3vw;
-  margin-right: 3vw;
-  color: red;
+	font-size: 18px;
+ 	text-decoration: none;
+	border: 1px solid red;
+ 	border-radius: 3px;
+	margin-top: 24vw;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	margin-bottom: 8vw;
+  	color: red;
 }
 .page > .links a:last-child{
 	color:white;
