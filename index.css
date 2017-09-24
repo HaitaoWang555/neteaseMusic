@@ -88,9 +88,9 @@ section.playLists>ul li img{
 section.playLists>ul li p{
 	font-size: 0.9em;
 	padding: 0 1.6vw;
-	line-height: 5vw;
+	line-height: 1.5em;
  	display: -webkit-box;
- 	height: 10vw;
+ 	height: 3em;
  	-webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
 	overflow: hidden;
