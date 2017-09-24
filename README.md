@@ -1,12 +1,12 @@
-# jQuery制作移动端网易云音乐
+# 移动端网易云音乐
 请用手机qq扫描二维码预览
 
 ![image.png](http://upload-images.jianshu.io/upload_images/2170795-eac60705f7406d51.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 功能展示
-1. [首页](https://github.com/HaitaoWang555/neteaseMusic/index.html)
+1.  [首页](https://github.com/HaitaoWang555/neteaseMusic/index.html)
 
-![music.gif](http://upload-images.jianshu.io/upload_images/2170795-e67340060e0ee204.gif?imageMogr2/auto-orient/strip)
+![music.gif](https://upload-images.jianshu.io/upload_images/2170795-e67340060e0ee204.gif?imageMogr2/auto-orient/strip)
 
 2. [播放功能](https://github.com/HaitaoWang555/neteaseMusic/song.js)
 歌词滚动、播放暂停、磁盘转动
