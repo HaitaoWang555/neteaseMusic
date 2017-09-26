@@ -2,17 +2,17 @@ $(function(){
 	$.get('songs.json').then(function(response){
 		let items = response
 		items.forEach((i)=>{
-			let $li = $(`
-				<li>
-				<a href="song.html?id=${i.id}">	
-				<h3>${i.name}</h3>
-				<p>
-				<svg class="icon-sq"><use xlink:href="#icon-sq"></use></svg>${i.singer}-${i.album}
-				</p>
-					<svg class="icon-play"><use xlink:href="#icon-play"></use></svg>
-					</a>
-				</li>
-			`)
+			let $li = $(
+				'<li>\
+				<a href="song.html?id='+i.id+'">\
+				<h3>'+i.name+'</h3>\
+				<p>\
+				<svg class="icon-sq"><use xlink:href="#icon-sq"></use></svg>'+i.singer+'-'+i.album+'\
+				</p>\
+					<svg class="icon-play"><use xlink:href="#icon-play"></use></svg>\
+					</a>\
+				</li>'
+			)
 			$('#newMusicLists').append($li)
 		})
 		$('.loading').remove()
